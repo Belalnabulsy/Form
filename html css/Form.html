@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Belal Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="form.css " />
+    <title>Belal Form</title>
+
+</head>
+
+<body class="form-body">
+    <main class="page-content">
+        <!--main tag should contain the most important content of the page, which is unique to that page. يعني الصفحة كاملة-->
+        <section class="formes">
+            <!--class for right and left-->
+            <form class="form-detail" id="myform">
+                <article class="form-left">
+                    <header>
+                        <h2>General Information</h2>
+                    </header>
+                    <section class="form-row">
+                        <select name="title" id="title" required>
+                            <option value="">Title</option>
+                            <option value="Belal">Belal</option>
+                            <option value="Hamza">Hamza</option>
+                            <option value="Mosab">Mosab</option>
+                        </select>
+
+                    </section>
+                    <section class="form-group">
+                        <section class="form-row form-row-1">
+                            <input type="text" name="first_name" id="first_name" class="input-text"
+                                placeholder="First Name" required>
+                        </section>
+                        <section class="form-row form-row-2">
+                            <input type="text" name="last_name" id="last_name" class="input-text"
+                                placeholder="Last Name" required>
+                        </section>
+                    </section>
+                    <section class="form-row">
+                        <select name="position" id="position" required>
+                            <option value="">Position</option>
+                            <option value="Belal">Belal</option>
+                            <option value="Hamza">Hamza</option>
+                            <option value="Mosab">Mosab</option>
+                        </select>
+                    </section>
+                    <section class="form-row">
+                        <input type="text" name="company" id="company" placeholder="Company" required>
+                    </section>
+                    <section class="form-group">
+                        <section class="form-row form-row-3">
+                            <input type="text" name="business" id="business" placeholder="Business Arena" required>
+                        </section>
+                        <section class="form-row form-row-4">
+                            <select name="employees" id="employees" required>
+                                <option value="">Employees</option>
+                                <option value="Belal">Belal</option>
+                                <option value="Hamza">Hamza</option>
+                                <option value="Mosab">Mosab</option>
+                            </select>
+                        </section>
+                    </section>
+                </article>
+
+                <article class="form-right">
+                    <header>
+                        <h2>Contact Details</h2>
+                    </header>
+                    <section class="form-row">
+                        <input type="text" name="street" id="street" placeholder="Street + Nr" required>
+                    </section>
+                    <section class="form-row">
+                        <input type="text" name="additional" id="additional" placeholder="Additional Information"
+                            required>
+                    </section>
+                    <section class="form-group">
+                        <section class="form-row form-row-1">
+                            <input type="text" name="zip" id="zip" placeholder="Zip Code" required>
+                        </section>
+                        <section class="form-row form-row-2">
+                            <select name="place" id="place" required>
+                                <option value="">Place</option>
+                                <option value="place 1">Place 1</option>
+                                <option value="Place 2">Place 2</option>
+                                <option value="Place 3">Place 3</option>
+                            </select>
+                        </section>
+                    </section>
+                    <section class="form-row">
+                        <select name="country" id="country" required>
+                            <option value="">Country</option>
+                            <option value="Palestine">Palestine</option>
+                            <option value="Syria">Syria</option>
+                            <option value="Iraq">Iraq</option>
+                        </select>
+                    </section>
+                    <section class="form-group">
+                        <section class="form-row form-row-1">
+                            <input type="text" name="code" id="code" placeholder="Code +" required>
+                        </section>
+                        <section class="form-row form-row-2">
+                            <input type="tel" name="phone" id="phone" placeholder="Phone Number" required>
+                        </section>
+                    </section>
+                    <section class="form-row">
+                        <input type="email" name="your_email" id="your_email" required placeholder="Your Email">
+                    </section>
+                    <section class="form-checkbox">
+                        <label class="container">
+                            <input type="checkbox" name="checkbox" required>
+                            <span class="checkmark"></span>
+                            <span style="margin-left: 30px; color: white;">I do accept the <a href="www.google.com"
+                                    class="text">Terms and
+                                    Conditions</a> of your sites</span>
+                        </label>
+                    </section>
+
+                    <footer class="form-row-last">
+                        <input type="submit" name="register" class="register" value="Register Badge">
+                    </footer>
+                </article>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
